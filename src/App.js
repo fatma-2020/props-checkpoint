@@ -33,8 +33,8 @@ function App() {
             </figure>
           </Profile>
           <Profile
-            fullName="El aroma en la camisa de los amados profetas Jacob y José"
-            bio="Galería de Arte Islámico y Fotografía"
+            fullName="La camisa de profeta José"
+            bio="El aroma en la camisa de los amados profetas Jacob y José"
             profession="Artista Profesor : Mahmud Farshchian"
             alertByName={alertByName}
             style={{ width: 550 }}

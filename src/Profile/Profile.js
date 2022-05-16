@@ -12,17 +12,19 @@ const Profile = ({
 }) => {
   return (
     <div>
-      <Card style={{backgroundColor:"#f1d7e7"}}>
+      <Card style={{ backgroundColor: "#f1d7e7", borderRadius: "4%" }}>
         {children}
         <Card.Body>
           <Card.Title>{fullName}</Card.Title>
           <Card.Text>
             <span style={{ fontStyle: "italic" }}>{profession}</span>
-            <br/>
+            <br />
             {bio}
           </Card.Text>
-          
-          <Button onClick={() => alertByName("NAME IS : "+ fullName )}>ClickMe</Button>
+
+          <Button onClick={() => alertByName("NAME IS : " + fullName)}>
+            ClickMe
+          </Button>
         </Card.Body>
       </Card>
     </div>
